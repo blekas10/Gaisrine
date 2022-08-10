@@ -97,6 +97,7 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-image: url(/img/044.jpg);
 }
 
 .img-cover {
@@ -662,7 +663,7 @@ a:hover {
 /*=====  End of RESPONSIVE  ======*/
 
 .intro-call p {
-  font-size: 6rem;
+  font-size: 5.75rem;
   margin: 0 auto;
 
   font-weight: bold;
@@ -732,10 +733,16 @@ a:hover {
   padding: 2rem 4rem;
 }
 /* meniu */
-
-.menu-image img {
+.menu-image {
   width: 100%;
   height: 35rem;
+  background-image: url(/img/034.jpg);
+}
+
+.menu-image1 {
+  width: 100%;
+  height: 35rem;
+  background-image: url(/img/037.jpg);
 }
 
 .menu-text {
@@ -793,8 +800,8 @@ a:hover {
 }
 
 .map-border {
-  border: solid 4px;
-  border-image: linear-gradient(to right, rgb(139, 0, 0), rgb(182, 80, 2)) 1;
+  /* border: solid 4px;
+  */
   width: fit-content;
   margin: auto;
   padding: 2rem;
@@ -935,4 +942,17 @@ a:hover {
   min-height: 50rem;
   background-image: url(/img/051.jpg);
   background-position: center;
+}
+
+@media (max-width: 1400px) {
+  .map-reactive {
+    width: fit-content;
+    margin: 2rem auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .map-reactive {
+    margin: 0 0;
+  }
 }
