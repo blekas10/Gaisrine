@@ -192,8 +192,9 @@ a:hover {
 .hero {
   height: 600px;
   position: relative;
-  background-image: url("/img/248956892_4738293256238634_5356734828442777206_n.jpg");
+  background-image: url("/img/istockphoto_1293368769_edit.jpg");
   background-size: cover;
+  background-position: top;
   background-position: 50% 50%;
 }
 @media (min-width: 992px) {
